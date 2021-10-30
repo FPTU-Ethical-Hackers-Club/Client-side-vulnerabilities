@@ -8,7 +8,7 @@
 
 ### 2. Cross-site request forgery:
 
-- [Lý thuyết về CSRF + PoC]()
+- [Lý thuyết về CSRF + PoC](https://github.com/FPTU-Ethical-Hackers-Club/Client-side-vulnerabilities/tree/main/CSRF)
 
 - Link record [here](https://drive.google.com/file/d/1zvkcPzNvdb68uPmKCvnDA1j-_GOHHUKr/view?usp=sharing)
 - Link chat [here](https://docs.google.com/document/d/1VMCsPo8fnCTK87WHKNNkbvJEMnEItqf7qQezfS5WA1Y/edit?usp=sharing)
