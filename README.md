@@ -1,1 +1,1 @@
-# Vulnerabilities
+# Client-side vulnerabilities
