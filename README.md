@@ -9,7 +9,14 @@
 ### 2. Cross-site request forgery:
 
 - [Lý thuyết về CSRF + PoC](https://github.com/FPTU-Ethical-Hackers-Club/Client-side-vulnerabilities/tree/main/CSRF)
--  Ngoài ra có thể tập khai thác CSRF tại: https://application.security/free-application-security-training/owasp-top-10-cross-site-request-forgery
+- Ngoài ra có thể tập khai thác CSRF tại: https://application.security/free-application-security-training/owasp-top-10-cross-site-request-forgery
+
+### 3. Clickjacking:
+
+- [Lý thuyết về Clickjacking](https://portswigger.net/web-security/clickjacking)
+
+
+## Record và chat trong buổi training:
 
 - Link record [here](https://drive.google.com/file/d/1zvkcPzNvdb68uPmKCvnDA1j-_GOHHUKr/view?usp=sharing)
 - Link chat [here](https://docs.google.com/document/d/1VMCsPo8fnCTK87WHKNNkbvJEMnEItqf7qQezfS5WA1Y/edit?usp=sharing)
