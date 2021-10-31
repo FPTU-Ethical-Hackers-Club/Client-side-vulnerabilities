@@ -37,8 +37,11 @@
 - Cách phòng tránh XSS:
 
     \+ **Filter input**: giới hạn input của người dùng trong danh sách cụ thể, phương pháp này đảm bảo rằng chỉ các giá trị đã biết và an toàn mới được gửi đến máy chủ. Việc hạn chế input chỉ hoạt động nếu hệ thống biết có thể nhận được loại dữ liệu nào. Tuy nhiên, nó chỉ giúp giảm thiểu rủi ro, không đảm bảo đủ để ngăn chặn lỗ hổng XSS có thể xảy ra.
+    
     \+ **Output encoding**: tại điểm mà dữ liệu mà attacker muốn retrieve được xuất ra trong reponse, encode dữ liệu đó nhằm ngăn chặn các malious script có trong dữ liệu sẽ thực thi khi được xuất ra ở response, mà vẫn đảm bảo rằng dữ liệu vẫn được hiển thị đúng cách, tùy vào các context khác nhau. Ví dụ, trong context của HTML, ta có thể chuyển các giá trị non-whitelisted trở thành các HTML entity, như `<` trở thành `&lt;` và `>` trở thành `&gt;`.
+    
     \+ **Config các response header**: sử dụng các header liên quan đến CORS như **Access-Control-Allow-Origin** để ngăn chặn các website khác (trong đó có trang của attacker) can thiệp vào traffic của ứng dụng web cần bảo vệ, các header quy định cách hiển thị nội dung trên response như **Content-Type** hay **X-Content-Type-Options**.
+    
     \+ **Content Security Policy**: đây thường là lớp phòng thủ cuối cùng, nó sẽ chỉ định các domain name được nguồn hợp lệ của các script thực thi. Trình duyệt tương thích CSP sau đó sẽ chỉ thực thi các script được load trong nguồn nhận được từ các miền thuộc danh sách đó.
 
 #### 2) Cross-Origin Resource Sharing (CORS):
